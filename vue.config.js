@@ -1,6 +1,6 @@
 module.exports = {
-  publicPath: '/warikan/',
-  outputDir: 'docs',
+  // publicPath: '/warikan/',
+  // outputDir: 'docs',
   transpileDependencies: [
     'vuetify'
   ]
