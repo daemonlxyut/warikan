@@ -1,24 +1,33 @@
 # warikan
 
 ## Project setup
-```
+```sh
+# cloning
+git clone https://github.com/daemonlxyut/warikan.git
+cd warikan
+
+# install dependencies
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
+# launch local server
 yarn serve
-```
 
-### Compiles and minifies for production
-```
+# compile and create output for deploying
 yarn build
-```
 
-### Lints and fixes files
-```
+# lints and fixes files
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Creating Project
+
+```sh
+vue create warikan
+cd warikan
+
+vue add vuex
+vue add vuetify
+# -> create backup of App.vue
+vue add router
+# -> fix router using backup of App.vue
+```
